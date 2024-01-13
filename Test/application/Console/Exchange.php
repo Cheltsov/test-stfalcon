@@ -26,7 +26,7 @@ class Exchange extends Command
         private readonly HttpClientInterface $httpClient,
         private readonly MailerInterface $mailer,
         private readonly BankAbstract $privat,
-        private readonly BankAbstract $mono,
+        private readonly BankAbstract $mono
 
     ) {
         parent::__construct();
