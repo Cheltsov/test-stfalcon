@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\Console\Exchange;
+namespace Console\Exchange;
 
 abstract class BankAbstract
 {

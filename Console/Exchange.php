@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Project\Console;
+namespace Console;
 
-use Project\Console\Exchange\BankAbstract;
-use Project\Console\Exchange\Mono;
-use Project\Console\Exchange\Privat;
+use Console\Exchange\BankAbstract;
+use Console\Exchange\Mono;
+use Console\Exchange\Privat;
+use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Project\Console\Exchange;
+namespace Console\Exchange;
 
 class Mono extends BankAbstract
 {
