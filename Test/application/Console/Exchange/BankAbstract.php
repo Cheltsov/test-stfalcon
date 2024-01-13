@@ -6,7 +6,7 @@ abstract class BankAbstract
 {
     private array $exchangeRates = [];
 
-    abstract  public function parseExchangeRates(array $response): array;
+    abstract protected function parseExchangeRates(array $response): array;
 
     /**
      * @param array{USD: array{buy: float, sell: float}, EUR: array{buy: float, sell: float}} $exchangeRates
